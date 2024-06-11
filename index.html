@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de Velocidade Média</title>
+</head>
+<body>
+    <div class="ajuste">
+        <h1>Calculadora de Velocidade Média</h1>
+        <form id="speedForm">
+            <label for="distance">Informe a distância percorrida (KM): </label>
+            <input type="number" id="distance" required autofocus>
+            <br>
+            <label for="time">Informe o tempo gasto (HORAS): </label>
+            <input type="number" id="time" required>
+            <br>
+            <button type="button" onclick="calcularVelocidade()">Calcular</button>
+        </form>
+    
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
